@@ -7,11 +7,11 @@
 //
 
 import Foundation
+import CashierSerializable
+import Serializable
+import Cashier
 
-public protocol UserType : Serializable {
-    
-}
-
+public typealias UserType = Serializable
 
 public protocol UserManagerType {}
 
