@@ -23,7 +23,7 @@ public extension UserManagerType {
      - Returns: Object that confroms with `UserType` with informations about the current user or `nil`.
     */
     public static func currentUser<T:UserType>() -> T? {
-        return NOPersistentStore(id: "UserManager").serializableForKey("User")
+        return NOPersistentStore.cacheWithId("UserManager").serializableForKey("User")
     }
     
     /**
@@ -32,12 +32,12 @@ public extension UserManagerType {
      - Parameter user: The user object that conforms `UserType`.
     */
     public static func setCurrentUser<T:UserType>(user:T) {
-        NOPersistentStore(id: "UserManager").setSerializable(user, forKey: "User")
+        NOPersistentStore.cacheWithId("UserManager").setSerializable(user, forKey: "User")
     }
     
     /// Logout current user and set the object with the key `User` to nil.
     public static func logoutCurrentUser() {
-        NOPersistentStore(id: "UserManager").setObject(nil, forKey: "User")
+        NOPersistentStore.cacheWithId("UserManager").setObject(nil, forKey: "User")
     }
     
     /// Logout current user, call `logoutCurrentUser` and set token to nil.
@@ -52,7 +52,7 @@ public extension UserManagerType {
      - Parameter token: Token as an optional `String`.
     */
     public static func setToken(token token:String?) {
-         NOPersistentStore(id: "UserManager").setObject(token, forKey: "Token")
+         NOPersistentStore.cacheWithId("UserManager").setObject(token, forKey: "Token")
     }
     
     /**
@@ -61,7 +61,7 @@ public extension UserManagerType {
      - Returns: Token as an optional `String`.
      */
     public static func token() -> String? {
-        return NOPersistentStore(id: "UserManager").objectForKey("Token") as? String
+        return NOPersistentStore.cacheWithId("UserManager").objectForKey("Token") as? String
     }
     
     /**
@@ -70,7 +70,7 @@ public extension UserManagerType {
      - Returns: `Boolean`
      */
     public static func isLoggedIn() -> Bool {
-        if !NOPersistentStore(id: "UserManager").objectForKeyIsValid("User") { return false }
+        if !NOPersistentStore.cacheWithId("UserManager").objectForKeyIsValid("User") { return false }
         guard let _ = token() else { return false }
         return true
     }
