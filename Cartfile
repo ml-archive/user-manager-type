@@ -1,1 +1,2 @@
-github "nodes-ios/Cashier-Serializable" "master"
+github "nodes-ios/Serializable"
+github "nodes-ios/Cashier"

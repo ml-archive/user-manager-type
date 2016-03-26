@@ -1,3 +1,2 @@
-github "nodes-ios/Cashier" "8595e5f532f7f1d147040b4e234fb62bfcc60106"
-github "nodes-ios/Serializable" "cb916b939f2b4ca5c771fde8ebc0ee948c006ff7"
-github "nodes-ios/Cashier-Serializable" "2f3d8ebe81382e7c44d7fd5f825e76e9fc55ce1d"
+github "nodes-ios/Cashier" "1.0.0"
+github "nodes-ios/Serializable" "0.9.0"

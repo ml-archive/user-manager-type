@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import CashierSerializable
 import Serializable
 import Cashier
 
