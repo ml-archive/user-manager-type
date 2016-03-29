@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0135E6311C7B5C3D007982E1 /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6301C7B5C3D007982E1 /* Cashier.framework */; };
 		0135E6331C7B5C70007982E1 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6321C7B5C70007982E1 /* Serializable.framework */; };
-		0135E66A1C7B6146007982E1 /* CashierSerializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6691C7B6146007982E1 /* CashierSerializable.framework */; };
 		272F1DF01C6A3D2B0098F620 /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 272F1DEF1C6A3D2B0098F620 /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		272F1DF71C6A3D2B0098F620 /* UserManagerType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272F1DEC1C6A3D2B0098F620 /* UserManagerType.framework */; };
 		272F1DFC1C6A3D2B0098F620 /* UserManagerTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */; };
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		0135E6301C7B5C3D007982E1 /* Cashier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cashier.framework; path = Carthage/Build/iOS/Cashier.framework; sourceTree = "<group>"; };
 		0135E6321C7B5C70007982E1 /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/iOS/Serializable.framework; sourceTree = "<group>"; };
-		0135E6691C7B6146007982E1 /* CashierSerializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CashierSerializable.framework; path = Carthage/Build/iOS/CashierSerializable.framework; sourceTree = "<group>"; };
 		272F1DEC1C6A3D2B0098F620 /* UserManagerType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserManagerType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		272F1DEF1C6A3D2B0098F620 /* UserManagerType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserManagerType.h; sourceTree = "<group>"; };
 		272F1DF11C6A3D2B0098F620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +44,6 @@
 			files = (
 				0135E6311C7B5C3D007982E1 /* Cashier.framework in Frameworks */,
 				0135E6331C7B5C70007982E1 /* Serializable.framework in Frameworks */,
-				0135E66A1C7B6146007982E1 /* CashierSerializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +61,6 @@
 		0135E62F1C7B5C31007982E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0135E6691C7B6146007982E1 /* CashierSerializable.framework */,
 				0135E6321C7B5C70007982E1 /* Serializable.framework */,
 				0135E6301C7B5C3D007982E1 /* Cashier.framework */,
 			);
