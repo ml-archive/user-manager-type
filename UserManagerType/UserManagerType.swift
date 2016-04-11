@@ -1,18 +1,18 @@
 //
 //  UserManager.swift
-//  BorsenMobil
+//  UserManagerType
 //
 //  Created by Jakob Mygind on 18/08/15.
-//  Copyright © 2015 Borsen. All rights reserved.
+//  Copyright © 2015 Nodes ApS. All rights reserved.
 //
 
 import Foundation
 import Serializable
 import Cashier
 
-public typealias UserType = Serializable
-
-public protocol UserManagerType {}
+public protocol UserManagerType {
+    associatedtype UserType: Serializable
+}
 
 public extension UserManagerType {
     
@@ -21,7 +21,7 @@ public extension UserManagerType {
      
      - Returns: Object that confroms with `UserType` with informations about the current user or `nil`.
     */
-    public static func currentUser<T:UserType>() -> T? {
+    public static func currentUser() -> UserType? {
         return NOPersistentStore.cacheWithId("UserManager").serializableForKey("User")
     }
     
@@ -30,7 +30,7 @@ public extension UserManagerType {
      
      - Parameter user: The user object that conforms `UserType`.
     */
-    public static func setCurrentUser<T:UserType>(user:T) {
+    public static func setCurrentUser(user: UserType) {
         NOPersistentStore.cacheWithId("UserManager").setSerializable(user, forKey: "User")
     }
     
