@@ -10,67 +10,67 @@ import Foundation
 import Serializable
 import Cashier
 
+public let UserManagerCacheKey = "UserManager"
+
 public protocol UserManagerType {
     associatedtype UserType: Serializable
+
+    static var currentUser: UserType? { get set }
+    static var token: String? { get set }
+
+    static func logoutCurrentUser()
+    static func logOutUserAndClearToken()
+
+    static func isLoggedIn() -> Bool
 }
 
 public extension UserManagerType {
-    
-    /**
-     Get the current user object.
-     
-     - Returns: Object that confroms with `UserType` with informations about the current user or `nil`.
-    */
-    public static func currentUser() -> UserType? {
-        return NOPersistentStore.cacheWithId("UserManager").serializableForKey("User")
+
+    ///  Get or set the current user object
+    public static var currentUser: UserType? {
+        get {
+            // Retrieve object from cache
+            return NOPersistentStore.cacheWithId(UserManagerCacheKey).serializableForKey("User")
+        }
+        set {
+            if let newValue = newValue {
+                // If there is a new value, set it
+                NOPersistentStore.cacheWithId(UserManagerCacheKey).setSerializable(newValue, forKey: "User")
+            } else {
+                // Otherwise delete from cache
+                NOPersistentStore.cacheWithId(UserManagerCacheKey).setObject(nil, forKey: "User")
+            }
+        }
     }
-    
-    /**
-     Set the current user.
-     
-     - Parameter user: The user object that conforms `UserType`.
-    */
-    public static func setCurrentUser(user: UserType) {
-        NOPersistentStore.cacheWithId("UserManager").setSerializable(user, forKey: "User")
+
+    /// Get or set the token string
+    public static var token: String? {
+        get {
+            return NOPersistentStore.cacheWithId(UserManagerCacheKey).objectForKey("Token") as? String
+        }
+        set {
+            NOPersistentStore.cacheWithId(UserManagerCacheKey).setObject(newValue, forKey: "Token")
+        }
     }
-    
+
     /// Logout current user and set the object with the key `User` to nil.
     public static func logoutCurrentUser() {
-        NOPersistentStore.cacheWithId("UserManager").setObject(nil, forKey: "User")
+        currentUser = nil
     }
     
     /// Logout current user, call `logoutCurrentUser` and set token to nil.
     public static func logOutUserAndClearToken() {
         logoutCurrentUser()
-        setToken(token: nil)
+        token = nil
     }
-    
-    /**
-     Set new user token.
-     
-     - Parameter token: Token as an optional `String`.
-    */
-    public static func setToken(token token:String?) {
-         NOPersistentStore.cacheWithId("UserManager").setObject(token, forKey: "Token")
-    }
-    
-    /**
-     Get current user token.
-     
-     - Returns: Token as an optional `String`.
-     */
-    public static func token() -> String? {
-        return NOPersistentStore.cacheWithId("UserManager").objectForKey("Token") as? String
-    }
-    
+
     /**
      Check if someone is logged in by checking if a token is set.
      
      - Returns: `Boolean`
      */
     public static func isLoggedIn() -> Bool {
-        if !NOPersistentStore.cacheWithId("UserManager").objectForKeyIsValid("User") { return false }
-        guard let _ = token() else { return false }
-        return true
+        guard let _ = token else { return false }
+        return NOPersistentStore.cacheWithId(UserManagerCacheKey).objectForKeyIsValid("User")
     }
 }
