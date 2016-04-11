@@ -14,14 +14,6 @@ public let UserManagerCacheKey = "UserManager"
 
 public protocol UserManagerType {
     associatedtype UserType: Serializable
-
-    static var currentUser: UserType? { get set }
-    static var token: String? { get set }
-
-    static func logoutCurrentUser()
-    static func logOutUserAndClearToken()
-
-    static func isLoggedIn() -> Bool
 }
 
 public extension UserManagerType {
