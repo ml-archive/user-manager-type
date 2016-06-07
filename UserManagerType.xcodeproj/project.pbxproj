@@ -21,6 +21,9 @@
 		01CD40061D0709DC0044887E /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD40001D0709DC0044887E /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01CD40071D0709DC0044887E /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD40001D0709DC0044887E /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01CD40081D0709DC0044887E /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD40001D0709DC0044887E /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01CD401A1D0714630044887E /* UserManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1E061C6A3D420098F620 /* UserManagerType.swift */; };
+		01CD401B1D0714630044887E /* UserManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1E061C6A3D420098F620 /* UserManagerType.swift */; };
+		01CD401C1D0714640044887E /* UserManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1E061C6A3D420098F620 /* UserManagerType.swift */; };
 		272F1DF71C6A3D2B0098F620 /* UserManagerType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272F1DEC1C6A3D2B0098F620 /* UserManagerType.framework */; };
 		272F1DFC1C6A3D2B0098F620 /* UserManagerTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */; };
 		272F1E071C6A3D420098F620 /* UserManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1E061C6A3D420098F620 /* UserManagerType.swift */; };
@@ -512,6 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CD401C1D0714640044887E /* UserManagerType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CD401A1D0714630044887E /* UserManagerType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01CD401B1D0714630044887E /* UserManagerType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
