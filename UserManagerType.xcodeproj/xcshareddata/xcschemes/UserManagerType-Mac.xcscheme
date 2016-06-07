@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01CD3FDC1D0707BE0044887E"
-               BuildableName = "UserManagerType-Mac.framework"
+               BuildableName = "UserManagerType.framework"
                BlueprintName = "UserManagerType-Mac"
                ReferencedContainer = "container:UserManagerType.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01CD3FDC1D0707BE0044887E"
-            BuildableName = "UserManagerType-Mac.framework"
+            BuildableName = "UserManagerType.framework"
             BlueprintName = "UserManagerType-Mac"
             ReferencedContainer = "container:UserManagerType.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01CD3FDC1D0707BE0044887E"
-            BuildableName = "UserManagerType-Mac.framework"
+            BuildableName = "UserManagerType.framework"
             BlueprintName = "UserManagerType-Mac"
             ReferencedContainer = "container:UserManagerType.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01CD3FDC1D0707BE0044887E"
-            BuildableName = "UserManagerType-Mac.framework"
+            BuildableName = "UserManagerType.framework"
             BlueprintName = "UserManagerType-Mac"
             ReferencedContainer = "container:UserManagerType.xcodeproj">
          </BuildableReference>

@@ -601,7 +601,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -626,7 +626,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -650,7 +650,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -674,7 +674,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -725,7 +725,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-Mac";
 				PRODUCT_NAME = UserManagerType;
 				SDKROOT = macosx;
@@ -751,7 +751,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-Mac";
 				PRODUCT_NAME = UserManagerType;
 				SDKROOT = macosx;
@@ -830,6 +830,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -872,6 +873,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -954,6 +956,7 @@
 				01CD3FBB1D0707990044887E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01CD3FD21D0707A50044887E /* Build configuration list for PBXNativeTarget "UserManagerType-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -962,6 +965,7 @@
 				01CD3FD41D0707A50044887E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01CD3FD51D0707A50044887E /* Build configuration list for PBXNativeTarget "UserManagerType-tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -970,6 +974,7 @@
 				01CD3FD71D0707A50044887E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01CD3FEE1D0707BE0044887E /* Build configuration list for PBXNativeTarget "UserManagerType-Mac" */ = {
 			isa = XCConfigurationList;
@@ -978,6 +983,7 @@
 				01CD3FF01D0707BE0044887E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01CD3FF11D0707BE0044887E /* Build configuration list for PBXNativeTarget "UserManagerType-MacTests" */ = {
 			isa = XCConfigurationList;
@@ -986,6 +992,7 @@
 				01CD3FF31D0707BE0044887E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		272F1DE61C6A3D2B0098F620 /* Build configuration list for PBXProject "UserManagerType" */ = {
 			isa = XCConfigurationList;

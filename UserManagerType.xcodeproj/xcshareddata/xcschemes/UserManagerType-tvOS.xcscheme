@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01CD3FC01D0707A50044887E"
-               BuildableName = "UserManagerType-tvOS.framework"
+               BuildableName = "UserManagerType.framework"
                BlueprintName = "UserManagerType-tvOS"
                ReferencedContainer = "container:UserManagerType.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01CD3FC01D0707A50044887E"
-            BuildableName = "UserManagerType-tvOS.framework"
+            BuildableName = "UserManagerType.framework"
             BlueprintName = "UserManagerType-tvOS"
             ReferencedContainer = "container:UserManagerType.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01CD3FC01D0707A50044887E"
-            BuildableName = "UserManagerType-tvOS.framework"
+            BuildableName = "UserManagerType.framework"
             BlueprintName = "UserManagerType-tvOS"
             ReferencedContainer = "container:UserManagerType.xcodeproj">
          </BuildableReference>
