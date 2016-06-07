@@ -9,13 +9,38 @@
 /* Begin PBXBuildFile section */
 		0135E6311C7B5C3D007982E1 /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6301C7B5C3D007982E1 /* Cashier.framework */; };
 		0135E6331C7B5C70007982E1 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6321C7B5C70007982E1 /* Serializable.framework */; };
-		272F1DF01C6A3D2B0098F620 /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 272F1DEF1C6A3D2B0098F620 /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01CD3FCB1D0707A50044887E /* UserManagerType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FC11D0707A50044887E /* UserManagerType.framework */; };
+		01CD3FE71D0707BE0044887E /* UserManagerType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FDD1D0707BE0044887E /* UserManagerType.framework */; };
+		01CD3FF61D0709820044887E /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF41D0709820044887E /* Cashier.framework */; };
+		01CD3FF71D0709820044887E /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF51D0709820044887E /* Serializable.framework */; };
+		01CD3FFA1D07098C0044887E /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF81D07098C0044887E /* Cashier.framework */; };
+		01CD3FFB1D07098C0044887E /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF91D07098C0044887E /* Serializable.framework */; };
+		01CD3FFC1D0709930044887E /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3F891D06F0B20044887E /* Cashier.framework */; };
+		01CD3FFD1D0709930044887E /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3F861D06EBD70044887E /* Serializable.framework */; };
+		01CD40051D0709DC0044887E /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD40001D0709DC0044887E /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01CD40061D0709DC0044887E /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD40001D0709DC0044887E /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01CD40071D0709DC0044887E /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD40001D0709DC0044887E /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01CD40081D0709DC0044887E /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD40001D0709DC0044887E /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		272F1DF71C6A3D2B0098F620 /* UserManagerType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272F1DEC1C6A3D2B0098F620 /* UserManagerType.framework */; };
 		272F1DFC1C6A3D2B0098F620 /* UserManagerTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */; };
 		272F1E071C6A3D420098F620 /* UserManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1E061C6A3D420098F620 /* UserManagerType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		01CD3FCC1D0707A50044887E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272F1DE31C6A3D2B0098F620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CD3FC01D0707A50044887E;
+			remoteInfo = "UserManagerType-tvOS";
+		};
+		01CD3FE81D0707BE0044887E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 272F1DE31C6A3D2B0098F620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CD3FDC1D0707BE0044887E;
+			remoteInfo = "UserManagerType-Mac";
+		};
 		272F1DF81C6A3D2B0098F620 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 272F1DE31C6A3D2B0098F620 /* Project object */;
@@ -28,9 +53,20 @@
 /* Begin PBXFileReference section */
 		0135E6301C7B5C3D007982E1 /* Cashier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cashier.framework; path = Carthage/Build/iOS/Cashier.framework; sourceTree = "<group>"; };
 		0135E6321C7B5C70007982E1 /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/iOS/Serializable.framework; sourceTree = "<group>"; };
+		01CD3F861D06EBD70044887E /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/watchOS/Serializable.framework; sourceTree = "<group>"; };
+		01CD3F891D06F0B20044887E /* Cashier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cashier.framework; path = Carthage/Build/watchOS/Cashier.framework; sourceTree = "<group>"; };
+		01CD3FB41D0707980044887E /* UserManagerType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserManagerType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CD3FC11D0707A50044887E /* UserManagerType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserManagerType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CD3FCA1D0707A50044887E /* UserManagerType-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UserManagerType-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CD3FDD1D0707BE0044887E /* UserManagerType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserManagerType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CD3FE61D0707BE0044887E /* UserManagerType-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UserManagerType-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01CD3FF41D0709820044887E /* Cashier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cashier.framework; path = Carthage/Build/tvOS/Cashier.framework; sourceTree = "<group>"; };
+		01CD3FF51D0709820044887E /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/tvOS/Serializable.framework; sourceTree = "<group>"; };
+		01CD3FF81D07098C0044887E /* Cashier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cashier.framework; path = Carthage/Build/Mac/Cashier.framework; sourceTree = "<group>"; };
+		01CD3FF91D07098C0044887E /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/Mac/Serializable.framework; sourceTree = "<group>"; };
+		01CD3FFF1D0709DC0044887E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01CD40001D0709DC0044887E /* UserManagerType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManagerType.h; sourceTree = "<group>"; };
 		272F1DEC1C6A3D2B0098F620 /* UserManagerType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserManagerType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		272F1DEF1C6A3D2B0098F620 /* UserManagerType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserManagerType.h; sourceTree = "<group>"; };
-		272F1DF11C6A3D2B0098F620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		272F1DF61C6A3D2B0098F620 /* UserManagerTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserManagerTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagerTypeTests.swift; sourceTree = "<group>"; };
 		272F1DFD1C6A3D2B0098F620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,6 +74,49 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		01CD3FB01D0707980044887E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CD3FFC1D0709930044887E /* Cashier.framework in Frameworks */,
+				01CD3FFD1D0709930044887E /* Serializable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FBD1D0707A50044887E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CD3FF61D0709820044887E /* Cashier.framework in Frameworks */,
+				01CD3FF71D0709820044887E /* Serializable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FC71D0707A50044887E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CD3FCB1D0707A50044887E /* UserManagerType.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FD91D0707BE0044887E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CD3FFA1D07098C0044887E /* Cashier.framework in Frameworks */,
+				01CD3FFB1D07098C0044887E /* Serializable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FE31D0707BE0044887E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CD3FE71D0707BE0044887E /* UserManagerType.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		272F1DE81C6A3D2B0098F620 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,10 +140,57 @@
 		0135E62F1C7B5C31007982E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01CD3FAE1D07076C0044887E /* Mac */,
+				01CD3FAD1D0707680044887E /* tvOS */,
+				01CD3F8B1D06F0BE0044887E /* watchOS */,
+				01CD3F8C1D06F0C20044887E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01CD3F8B1D06F0BE0044887E /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				01CD3F891D06F0B20044887E /* Cashier.framework */,
+				01CD3F861D06EBD70044887E /* Serializable.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		01CD3F8C1D06F0C20044887E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
 				0135E6321C7B5C70007982E1 /* Serializable.framework */,
 				0135E6301C7B5C3D007982E1 /* Cashier.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		01CD3FAD1D0707680044887E /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				01CD3FF41D0709820044887E /* Cashier.framework */,
+				01CD3FF51D0709820044887E /* Serializable.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		01CD3FAE1D07076C0044887E /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				01CD3FF81D07098C0044887E /* Cashier.framework */,
+				01CD3FF91D07098C0044887E /* Serializable.framework */,
+			);
+			name = Mac;
+			sourceTree = "<group>";
+		};
+		01CD3FFE1D0709DC0044887E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01CD40001D0709DC0044887E /* UserManagerType.h */,
+				01CD3FFF1D0709DC0044887E /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		272F1DE21C6A3D2B0098F620 = {
@@ -82,6 +208,11 @@
 			children = (
 				272F1DEC1C6A3D2B0098F620 /* UserManagerType.framework */,
 				272F1DF61C6A3D2B0098F620 /* UserManagerTypeTests.xctest */,
+				01CD3FB41D0707980044887E /* UserManagerType.framework */,
+				01CD3FC11D0707A50044887E /* UserManagerType.framework */,
+				01CD3FCA1D0707A50044887E /* UserManagerType-tvOSTests.xctest */,
+				01CD3FDD1D0707BE0044887E /* UserManagerType.framework */,
+				01CD3FE61D0707BE0044887E /* UserManagerType-MacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,8 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				272F1E061C6A3D420098F620 /* UserManagerType.swift */,
-				272F1DEF1C6A3D2B0098F620 /* UserManagerType.h */,
-				272F1DF11C6A3D2B0098F620 /* Info.plist */,
+				01CD3FFE1D0709DC0044887E /* Supporting Files */,
 			);
 			path = UserManagerType;
 			sourceTree = "<group>";
@@ -108,17 +238,131 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		01CD3FB11D0707980044887E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CD40081D0709DC0044887E /* UserManagerType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FBE1D0707A50044887E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CD40061D0709DC0044887E /* UserManagerType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FDA1D0707BE0044887E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CD40071D0709DC0044887E /* UserManagerType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		272F1DE91C6A3D2B0098F620 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				272F1DF01C6A3D2B0098F620 /* UserManagerType.h in Headers */,
+				01CD40051D0709DC0044887E /* UserManagerType.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		01CD3FB31D0707980044887E /* UserManagerType-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CD3FB91D0707990044887E /* Build configuration list for PBXNativeTarget "UserManagerType-watchOS" */;
+			buildPhases = (
+				01CD3FAF1D0707980044887E /* Sources */,
+				01CD3FB01D0707980044887E /* Frameworks */,
+				01CD3FB11D0707980044887E /* Headers */,
+				01CD3FB21D0707980044887E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UserManagerType-watchOS";
+			productName = "UserManagerType-watchOS";
+			productReference = 01CD3FB41D0707980044887E /* UserManagerType.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		01CD3FC01D0707A50044887E /* UserManagerType-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CD3FD21D0707A50044887E /* Build configuration list for PBXNativeTarget "UserManagerType-tvOS" */;
+			buildPhases = (
+				01CD3FBC1D0707A50044887E /* Sources */,
+				01CD3FBD1D0707A50044887E /* Frameworks */,
+				01CD3FBE1D0707A50044887E /* Headers */,
+				01CD3FBF1D0707A50044887E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UserManagerType-tvOS";
+			productName = "UserManagerType-tvOS";
+			productReference = 01CD3FC11D0707A50044887E /* UserManagerType.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		01CD3FC91D0707A50044887E /* UserManagerType-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CD3FD51D0707A50044887E /* Build configuration list for PBXNativeTarget "UserManagerType-tvOSTests" */;
+			buildPhases = (
+				01CD3FC61D0707A50044887E /* Sources */,
+				01CD3FC71D0707A50044887E /* Frameworks */,
+				01CD3FC81D0707A50044887E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01CD3FCD1D0707A50044887E /* PBXTargetDependency */,
+			);
+			name = "UserManagerType-tvOSTests";
+			productName = "UserManagerType-tvOSTests";
+			productReference = 01CD3FCA1D0707A50044887E /* UserManagerType-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01CD3FDC1D0707BE0044887E /* UserManagerType-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CD3FEE1D0707BE0044887E /* Build configuration list for PBXNativeTarget "UserManagerType-Mac" */;
+			buildPhases = (
+				01CD3FD81D0707BE0044887E /* Sources */,
+				01CD3FD91D0707BE0044887E /* Frameworks */,
+				01CD3FDA1D0707BE0044887E /* Headers */,
+				01CD3FDB1D0707BE0044887E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UserManagerType-Mac";
+			productName = "UserManagerType-Mac";
+			productReference = 01CD3FDD1D0707BE0044887E /* UserManagerType.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		01CD3FE51D0707BE0044887E /* UserManagerType-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CD3FF11D0707BE0044887E /* Build configuration list for PBXNativeTarget "UserManagerType-MacTests" */;
+			buildPhases = (
+				01CD3FE21D0707BE0044887E /* Sources */,
+				01CD3FE31D0707BE0044887E /* Frameworks */,
+				01CD3FE41D0707BE0044887E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01CD3FE91D0707BE0044887E /* PBXTargetDependency */,
+			);
+			name = "UserManagerType-MacTests";
+			productName = "UserManagerType-MacTests";
+			productReference = 01CD3FE61D0707BE0044887E /* UserManagerType-MacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		272F1DEB1C6A3D2B0098F620 /* UserManagerType */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 272F1E001C6A3D2B0098F620 /* Build configuration list for PBXNativeTarget "UserManagerType" */;
@@ -161,10 +405,25 @@
 		272F1DE31C6A3D2B0098F620 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Nodes;
 				TargetAttributes = {
+					01CD3FB31D0707980044887E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					01CD3FC01D0707A50044887E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					01CD3FC91D0707A50044887E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					01CD3FDC1D0707BE0044887E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					01CD3FE51D0707BE0044887E = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					272F1DEB1C6A3D2B0098F620 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -187,11 +446,51 @@
 			targets = (
 				272F1DEB1C6A3D2B0098F620 /* UserManagerType */,
 				272F1DF51C6A3D2B0098F620 /* UserManagerTypeTests */,
+				01CD3FC01D0707A50044887E /* UserManagerType-tvOS */,
+				01CD3FC91D0707A50044887E /* UserManagerType-tvOSTests */,
+				01CD3FDC1D0707BE0044887E /* UserManagerType-Mac */,
+				01CD3FE51D0707BE0044887E /* UserManagerType-MacTests */,
+				01CD3FB31D0707980044887E /* UserManagerType-watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		01CD3FB21D0707980044887E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FBF1D0707A50044887E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FC81D0707A50044887E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FDB1D0707BE0044887E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FE41D0707BE0044887E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		272F1DEA1C6A3D2B0098F620 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +508,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		01CD3FAF1D0707980044887E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FBC1D0707A50044887E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FC61D0707A50044887E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FD81D0707BE0044887E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01CD3FE21D0707BE0044887E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		272F1DE71C6A3D2B0098F620 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +562,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		01CD3FCD1D0707A50044887E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01CD3FC01D0707A50044887E /* UserManagerType-tvOS */;
+			targetProxy = 01CD3FCC1D0707A50044887E /* PBXContainerItemProxy */;
+		};
+		01CD3FE91D0707BE0044887E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01CD3FDC1D0707BE0044887E /* UserManagerType-Mac */;
+			targetProxy = 01CD3FE81D0707BE0044887E /* PBXContainerItemProxy */;
+		};
 		272F1DF91C6A3D2B0098F620 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 272F1DEB1C6A3D2B0098F620 /* UserManagerType */;
@@ -236,6 +580,218 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		01CD3FBA1D0707990044887E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-watchOS";
+				PRODUCT_NAME = UserManagerType;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		01CD3FBB1D0707990044887E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-watchOS";
+				PRODUCT_NAME = UserManagerType;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		01CD3FD31D0707A50044887E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-tvOS";
+				PRODUCT_NAME = UserManagerType;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		01CD3FD41D0707A50044887E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-tvOS";
+				PRODUCT_NAME = UserManagerType;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		01CD3FD61D0707A50044887E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = UserManagerTypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		01CD3FD71D0707A50044887E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = UserManagerTypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		01CD3FEF1D0707BE0044887E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-Mac";
+				PRODUCT_NAME = UserManagerType;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		01CD3FF01D0707BE0044887E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-Mac";
+				PRODUCT_NAME = UserManagerType;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		01CD3FF21D0707BE0044887E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UserManagerTypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01CD3FF31D0707BE0044887E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UserManagerTypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-MacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		272F1DFE1C6A3D2B0098F620 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -337,7 +893,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = UserManagerType/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nodes.UserManagerType;
@@ -359,7 +915,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = UserManagerType/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nodes.UserManagerType;
@@ -391,6 +947,46 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		01CD3FB91D0707990044887E /* Build configuration list for PBXNativeTarget "UserManagerType-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CD3FBA1D0707990044887E /* Debug */,
+				01CD3FBB1D0707990044887E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01CD3FD21D0707A50044887E /* Build configuration list for PBXNativeTarget "UserManagerType-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CD3FD31D0707A50044887E /* Debug */,
+				01CD3FD41D0707A50044887E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01CD3FD51D0707A50044887E /* Build configuration list for PBXNativeTarget "UserManagerType-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CD3FD61D0707A50044887E /* Debug */,
+				01CD3FD71D0707A50044887E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01CD3FEE1D0707BE0044887E /* Build configuration list for PBXNativeTarget "UserManagerType-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CD3FEF1D0707BE0044887E /* Debug */,
+				01CD3FF01D0707BE0044887E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01CD3FF11D0707BE0044887E /* Build configuration list for PBXNativeTarget "UserManagerType-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CD3FF21D0707BE0044887E /* Debug */,
+				01CD3FF31D0707BE0044887E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		272F1DE61C6A3D2B0098F620 /* Build configuration list for PBXProject "UserManagerType" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

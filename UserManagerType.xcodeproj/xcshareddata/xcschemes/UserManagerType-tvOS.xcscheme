@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "272F1DEB1C6A3D2B0098F620"
-               BuildableName = "UserManagerType.framework"
-               BlueprintName = "UserManagerType"
+               BlueprintIdentifier = "01CD3FC01D0707A50044887E"
+               BuildableName = "UserManagerType-tvOS.framework"
+               BlueprintName = "UserManagerType-tvOS"
                ReferencedContainer = "container:UserManagerType.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,29 +26,9 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "272F1DF51C6A3D2B0098F620"
-               BuildableName = "UserManagerTypeTests.xctest"
-               BlueprintName = "UserManagerTypeTests"
-               ReferencedContainer = "container:UserManagerType.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "272F1DEB1C6A3D2B0098F620"
-            BuildableName = "UserManagerType.framework"
-            BlueprintName = "UserManagerType"
-            ReferencedContainer = "container:UserManagerType.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -65,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "272F1DEB1C6A3D2B0098F620"
-            BuildableName = "UserManagerType.framework"
-            BlueprintName = "UserManagerType"
+            BlueprintIdentifier = "01CD3FC01D0707A50044887E"
+            BuildableName = "UserManagerType-tvOS.framework"
+            BlueprintName = "UserManagerType-tvOS"
             ReferencedContainer = "container:UserManagerType.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "272F1DEB1C6A3D2B0098F620"
-            BuildableName = "UserManagerType.framework"
-            BlueprintName = "UserManagerType"
+            BlueprintIdentifier = "01CD3FC01D0707A50044887E"
+            BuildableName = "UserManagerType-tvOS.framework"
+            BlueprintName = "UserManagerType-tvOS"
             ReferencedContainer = "container:UserManagerType.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

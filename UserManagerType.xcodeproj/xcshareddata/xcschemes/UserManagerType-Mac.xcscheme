@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "272F1DEB1C6A3D2B0098F620"
-               BuildableName = "UserManagerType.framework"
-               BlueprintName = "UserManagerType"
+               BlueprintIdentifier = "01CD3FDC1D0707BE0044887E"
+               BuildableName = "UserManagerType-Mac.framework"
+               BlueprintName = "UserManagerType-Mac"
                ReferencedContainer = "container:UserManagerType.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,16 +26,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "272F1DF51C6A3D2B0098F620"
-               BuildableName = "UserManagerTypeTests.xctest"
-               BlueprintName = "UserManagerTypeTests"
+               BlueprintIdentifier = "01CD3FE51D0707BE0044887E"
+               BuildableName = "UserManagerType-MacTests.xctest"
+               BlueprintName = "UserManagerType-MacTests"
                ReferencedContainer = "container:UserManagerType.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -43,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "272F1DEB1C6A3D2B0098F620"
-            BuildableName = "UserManagerType.framework"
-            BlueprintName = "UserManagerType"
+            BlueprintIdentifier = "01CD3FDC1D0707BE0044887E"
+            BuildableName = "UserManagerType-Mac.framework"
+            BlueprintName = "UserManagerType-Mac"
             ReferencedContainer = "container:UserManagerType.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "272F1DEB1C6A3D2B0098F620"
-            BuildableName = "UserManagerType.framework"
-            BlueprintName = "UserManagerType"
+            BlueprintIdentifier = "01CD3FDC1D0707BE0044887E"
+            BuildableName = "UserManagerType-Mac.framework"
+            BlueprintName = "UserManagerType-Mac"
             ReferencedContainer = "container:UserManagerType.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "272F1DEB1C6A3D2B0098F620"
-            BuildableName = "UserManagerType.framework"
-            BlueprintName = "UserManagerType"
+            BlueprintIdentifier = "01CD3FDC1D0707BE0044887E"
+            BuildableName = "UserManagerType-Mac.framework"
+            BlueprintName = "UserManagerType-Mac"
             ReferencedContainer = "container:UserManagerType.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
