@@ -45,23 +45,20 @@ public extension UserManagerType {
         }
     }
 
-    /// Logout current user and set the object with the key `User` to nil.
-    public static func logoutCurrentUser() {
+    /// Logout current user and set the object with the key `User` to nil and optionally set token to nil.
+    public static func logoutCurrentUser(clearToken clear: Bool) {
+        if clear {
+            token = nil
+        }
         currentUser = nil
     }
     
-    /// Logout current user, call `logoutCurrentUser` and set token to nil.
-    public static func logOutUserAndClearToken() {
-        logoutCurrentUser()
-        token = nil
-    }
-
     /**
      Check if someone is logged in by checking if a token is set.
      
      - Returns: `Boolean`
      */
-    public static func isLoggedIn() -> Bool {
+    public static var isLoggedIn: Bool {
         guard let _ = token else { return false }
         return NOPersistentStore.cacheWithId(UserManagerCacheKey).objectForKeyIsValid("User")
     }
