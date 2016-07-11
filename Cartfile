@@ -1,2 +1,2 @@
-github "nodes-ios/Serializable"
+github "nodes-ios/Serializable" "swift-3.0"
 github "nodes-ios/Cashier"

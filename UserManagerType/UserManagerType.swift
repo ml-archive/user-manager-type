@@ -22,15 +22,15 @@ public extension UserManagerType {
     public static var currentUser: UserType? {
         get {
             // Retrieve object from cache
-            return NOPersistentStore.cacheWithId(UserManagerCacheKey).serializableForKey("User")
+            return NOPersistentStore.cache(withId: UserManagerCacheKey).serializableForKey("User")
         }
         set {
             if let newValue = newValue {
                 // If there is a new value, set it
-                NOPersistentStore.cacheWithId(UserManagerCacheKey).setSerializable(newValue, forKey: "User")
+                NOPersistentStore.cache(withId: UserManagerCacheKey).setSerializable(newValue, forKey: "User")
             } else {
                 // Otherwise delete from cache
-                NOPersistentStore.cacheWithId(UserManagerCacheKey).setObject(nil, forKey: "User")
+                NOPersistentStore.cache(withId: UserManagerCacheKey).setObject(nil, forKey: "User")
             }
         }
     }
@@ -38,10 +38,10 @@ public extension UserManagerType {
     /// Get or set the token string
     public static var token: String? {
         get {
-            return NOPersistentStore.cacheWithId(UserManagerCacheKey).objectForKey("Token") as? String
+            return NOPersistentStore.cache(withId: UserManagerCacheKey).object(forKey: "Token") as? String
         }
         set {
-            NOPersistentStore.cacheWithId(UserManagerCacheKey).setObject(newValue, forKey: "Token")
+            NOPersistentStore.cache(withId: UserManagerCacheKey).setObject(newValue, forKey: "Token")
         }
     }
 
@@ -60,6 +60,6 @@ public extension UserManagerType {
      */
     public static var isLoggedIn: Bool {
         guard let _ = token else { return false }
-        return NOPersistentStore.cacheWithId(UserManagerCacheKey).objectForKeyIsValid("User")
+        return NOPersistentStore.cache(withId: UserManagerCacheKey).object(forKeyIsValid: "User")
     }
 }
