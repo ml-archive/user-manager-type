@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0135E6311C7B5C3D007982E1 /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6301C7B5C3D007982E1 /* Cashier.framework */; };
 		0135E6331C7B5C70007982E1 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6321C7B5C70007982E1 /* Serializable.framework */; };
 		01CD3FCB1D0707A50044887E /* UserManagerType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FC11D0707A50044887E /* UserManagerType.framework */; };
 		01CD3FE71D0707BE0044887E /* UserManagerType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FDD1D0707BE0044887E /* UserManagerType.framework */; };
@@ -27,6 +26,17 @@
 		272F1DF71C6A3D2B0098F620 /* UserManagerType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272F1DEC1C6A3D2B0098F620 /* UserManagerType.framework */; };
 		272F1DFC1C6A3D2B0098F620 /* UserManagerTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */; };
 		272F1E071C6A3D420098F620 /* UserManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1E061C6A3D420098F620 /* UserManagerType.swift */; };
+		BD3454361D8D934C007A9E7C /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6321C7B5C70007982E1 /* Serializable.framework */; };
+		BD3454381D8D9352007A9E7C /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6301C7B5C3D007982E1 /* Cashier.framework */; };
+		BD7B983E1D8DA13F002FE745 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF51D0709820044887E /* Serializable.framework */; };
+		BD7B983F1D8DA143002FE745 /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF41D0709820044887E /* Cashier.framework */; };
+		BD8877161D8D9C3A000A60D7 /* UserManagerTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */; };
+		BD8877171D8D9C3B000A60D7 /* UserManagerTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */; };
+		BD8877181D8D9C9E000A60D7 /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF81D07098C0044887E /* Cashier.framework */; };
+		BD8877191D8D9CA2000A60D7 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF91D07098C0044887E /* Serializable.framework */; };
+		BD88771A1D8D9CB7000A60D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8733D1D8D884900C8F478 /* User.swift */; };
+		BD88771B1D8D9CB9000A60D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8733D1D8D884900C8F478 /* User.swift */; };
+		BDB8733E1D8D884900C8F478 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8733D1D8D884900C8F478 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +84,7 @@
 		272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagerTypeTests.swift; sourceTree = "<group>"; };
 		272F1DFD1C6A3D2B0098F620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		272F1E061C6A3D420098F620 /* UserManagerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManagerType.swift; sourceTree = "<group>"; };
+		BDB8733D1D8D884900C8F478 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +111,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01CD3FCB1D0707A50044887E /* UserManagerType.framework in Frameworks */,
+				BD7B983F1D8DA143002FE745 /* Cashier.framework in Frameworks */,
+				BD7B983E1D8DA13F002FE745 /* Serializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +129,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD8877181D8D9C9E000A60D7 /* Cashier.framework in Frameworks */,
 				01CD3FE71D0707BE0044887E /* UserManagerType.framework in Frameworks */,
+				BD8877191D8D9CA2000A60D7 /* Serializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +139,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0135E6311C7B5C3D007982E1 /* Cashier.framework in Frameworks */,
 				0135E6331C7B5C70007982E1 /* Serializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				272F1DF71C6A3D2B0098F620 /* UserManagerType.framework in Frameworks */,
+				BD3454381D8D9352007A9E7C /* Cashier.framework in Frameworks */,
+				BD3454361D8D934C007A9E7C /* Serializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +250,7 @@
 			children = (
 				272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */,
 				272F1DFD1C6A3D2B0098F620 /* Info.plist */,
+				BDB8733D1D8D884900C8F478 /* User.swift */,
 			);
 			path = UserManagerTypeTests;
 			sourceTree = "<group>";
@@ -433,7 +450,9 @@
 					};
 					272F1DF51C6A3D2B0098F620 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = M92A6H7EPZ;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -533,6 +552,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD88771A1D8D9CB7000A60D7 /* User.swift in Sources */,
+				BD8877161D8D9C3A000A60D7 /* UserManagerTypeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +569,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD88771B1D8D9CB9000A60D7 /* User.swift in Sources */,
+				BD8877171D8D9C3B000A60D7 /* UserManagerTypeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB8733E1D8D884900C8F478 /* User.swift in Sources */,
 				272F1DFC1C6A3D2B0098F620 /* UserManagerTypeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -608,6 +632,7 @@
 				PRODUCT_NAME = UserManagerType;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -634,6 +659,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -658,6 +684,7 @@
 				PRODUCT_NAME = UserManagerType;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -683,6 +710,7 @@
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -693,12 +721,17 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = UserManagerTypeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/tvOS";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Debug;
@@ -708,11 +741,16 @@
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
 				INFOPLIST_FILE = UserManagerTypeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/tvOS";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Release;
@@ -735,11 +773,12 @@
 				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-Mac";
 				PRODUCT_NAME = UserManagerType;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -761,12 +800,13 @@
 				INFOPLIST_FILE = "$(SRCROOT)/UserManagerType/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-Mac";
 				PRODUCT_NAME = UserManagerType;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -777,13 +817,19 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = UserManagerTypeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(PROJECT_DIR)/Carthage/Build/Mac";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -794,12 +840,17 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				INFOPLIST_FILE = UserManagerTypeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks $(PROJECT_DIR)/Carthage/Build/Mac";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nodes.UserManagerType-MacTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -809,6 +860,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -840,8 +892,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -858,6 +910,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -883,8 +936,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -943,8 +996,16 @@
 		272F1E041C6A3D2B0098F620 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = M92A6H7EPZ;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = UserManagerTypeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nodes.UserManagerTypeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -954,8 +1015,15 @@
 		272F1E051C6A3D2B0098F620 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = M92A6H7EPZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = UserManagerTypeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(PROJECT_DIR)/Carthage/Build/iOS";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nodes.UserManagerTypeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

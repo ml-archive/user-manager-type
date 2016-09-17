@@ -13,17 +13,41 @@ class UserManagerTypeTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+       UserManager.logoutCurrentUser(clearToken: true)
         super.tearDown()
     }
     
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testSaveAndReadUser() {
+        let user = User()
+        UserManager.currentUser = user
+        let savedUser = UserManager.currentUser
+        XCTAssertEqual(user, savedUser)
+    }
+    
+    func testClearUserKeepToken() {
+        UserManager.currentUser = User()
+        let token = "123456789"
+        UserManager.token = token
+        UserManager.logoutCurrentUser(clearToken: false)
+        XCTAssertEqual(token, UserManager.token)
+        XCTAssertNil(UserManager.currentUser)
+    }
+    
+    func testClearUserAndToken() {
+        UserManager.currentUser = User()
+        let token = "123456789"
+        UserManager.token = token
+        UserManager.logoutCurrentUser(clearToken: true)
+        XCTAssertNil(UserManager.token)
+        XCTAssertNil(UserManager.currentUser)
     }
     
     func testPerformanceExample() {
@@ -34,3 +58,5 @@ class UserManagerTypeTests: XCTestCase {
     }
     
 }
+
+
