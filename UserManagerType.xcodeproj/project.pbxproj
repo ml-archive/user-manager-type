@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0135E6331C7B5C70007982E1 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6321C7B5C70007982E1 /* Serializable.framework */; };
+		01345CA91DE4624100F92CDA /* Serpent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01345CA81DE4624100F92CDA /* Serpent.framework */; };
+		01345CAB1DE4624D00F92CDA /* Serpent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01345CAA1DE4624D00F92CDA /* Serpent.framework */; };
+		01345CAE1DE4626300F92CDA /* Serpent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01345CAD1DE4626300F92CDA /* Serpent.framework */; };
+		01345CB01DE4626E00F92CDA /* Serpent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01345CAF1DE4626E00F92CDA /* Serpent.framework */; };
 		01CD3FCB1D0707A50044887E /* UserManagerType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FC11D0707A50044887E /* UserManagerType.framework */; };
 		01CD3FE71D0707BE0044887E /* UserManagerType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FDD1D0707BE0044887E /* UserManagerType.framework */; };
 		01CD3FF61D0709820044887E /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF41D0709820044887E /* Cashier.framework */; };
-		01CD3FF71D0709820044887E /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF51D0709820044887E /* Serializable.framework */; };
 		01CD3FFA1D07098C0044887E /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF81D07098C0044887E /* Cashier.framework */; };
-		01CD3FFB1D07098C0044887E /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF91D07098C0044887E /* Serializable.framework */; };
 		01CD3FFC1D0709930044887E /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3F891D06F0B20044887E /* Cashier.framework */; };
-		01CD3FFD1D0709930044887E /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3F861D06EBD70044887E /* Serializable.framework */; };
 		01CD40051D0709DC0044887E /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD40001D0709DC0044887E /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01CD40061D0709DC0044887E /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD40001D0709DC0044887E /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01CD40071D0709DC0044887E /* UserManagerType.h in Headers */ = {isa = PBXBuildFile; fileRef = 01CD40001D0709DC0044887E /* UserManagerType.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,14 +26,11 @@
 		272F1DF71C6A3D2B0098F620 /* UserManagerType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272F1DEC1C6A3D2B0098F620 /* UserManagerType.framework */; };
 		272F1DFC1C6A3D2B0098F620 /* UserManagerTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */; };
 		272F1E071C6A3D420098F620 /* UserManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1E061C6A3D420098F620 /* UserManagerType.swift */; };
-		BD3454361D8D934C007A9E7C /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6321C7B5C70007982E1 /* Serializable.framework */; };
 		BD3454381D8D9352007A9E7C /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0135E6301C7B5C3D007982E1 /* Cashier.framework */; };
-		BD7B983E1D8DA13F002FE745 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF51D0709820044887E /* Serializable.framework */; };
 		BD7B983F1D8DA143002FE745 /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF41D0709820044887E /* Cashier.framework */; };
 		BD8877161D8D9C3A000A60D7 /* UserManagerTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */; };
 		BD8877171D8D9C3B000A60D7 /* UserManagerTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F1DFB1C6A3D2B0098F620 /* UserManagerTypeTests.swift */; };
 		BD8877181D8D9C9E000A60D7 /* Cashier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF81D07098C0044887E /* Cashier.framework */; };
-		BD8877191D8D9CA2000A60D7 /* Serializable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01CD3FF91D07098C0044887E /* Serializable.framework */; };
 		BD88771A1D8D9CB7000A60D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8733D1D8D884900C8F478 /* User.swift */; };
 		BD88771B1D8D9CB9000A60D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8733D1D8D884900C8F478 /* User.swift */; };
 		BDB8733E1D8D884900C8F478 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8733D1D8D884900C8F478 /* User.swift */; };
@@ -64,9 +61,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01345CA81DE4624100F92CDA /* Serpent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serpent.framework; path = Carthage/Build/Mac/Serpent.framework; sourceTree = "<group>"; };
+		01345CAA1DE4624D00F92CDA /* Serpent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serpent.framework; path = Carthage/Build/tvOS/Serpent.framework; sourceTree = "<group>"; };
+		01345CAD1DE4626300F92CDA /* Serpent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serpent.framework; path = Carthage/Build/watchOS/Serpent.framework; sourceTree = "<group>"; };
+		01345CAF1DE4626E00F92CDA /* Serpent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serpent.framework; path = Carthage/Build/iOS/Serpent.framework; sourceTree = "<group>"; };
 		0135E6301C7B5C3D007982E1 /* Cashier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cashier.framework; path = Carthage/Build/iOS/Cashier.framework; sourceTree = "<group>"; };
-		0135E6321C7B5C70007982E1 /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/iOS/Serializable.framework; sourceTree = "<group>"; };
-		01CD3F861D06EBD70044887E /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/watchOS/Serializable.framework; sourceTree = "<group>"; };
 		01CD3F891D06F0B20044887E /* Cashier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cashier.framework; path = Carthage/Build/watchOS/Cashier.framework; sourceTree = "<group>"; };
 		01CD3FB41D0707980044887E /* UserManagerType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserManagerType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01CD3FC11D0707A50044887E /* UserManagerType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserManagerType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,9 +73,7 @@
 		01CD3FDD1D0707BE0044887E /* UserManagerType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserManagerType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		01CD3FE61D0707BE0044887E /* UserManagerType-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UserManagerType-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01CD3FF41D0709820044887E /* Cashier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cashier.framework; path = Carthage/Build/tvOS/Cashier.framework; sourceTree = "<group>"; };
-		01CD3FF51D0709820044887E /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/tvOS/Serializable.framework; sourceTree = "<group>"; };
 		01CD3FF81D07098C0044887E /* Cashier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cashier.framework; path = Carthage/Build/Mac/Cashier.framework; sourceTree = "<group>"; };
-		01CD3FF91D07098C0044887E /* Serializable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serializable.framework; path = Carthage/Build/Mac/Serializable.framework; sourceTree = "<group>"; };
 		01CD3FFF1D0709DC0044887E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01CD40001D0709DC0044887E /* UserManagerType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManagerType.h; sourceTree = "<group>"; };
 		272F1DEC1C6A3D2B0098F620 /* UserManagerType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserManagerType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,8 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01345CAE1DE4626300F92CDA /* Serpent.framework in Frameworks */,
 				01CD3FFC1D0709930044887E /* Cashier.framework in Frameworks */,
-				01CD3FFD1D0709930044887E /* Serializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01345CAB1DE4624D00F92CDA /* Serpent.framework in Frameworks */,
 				01CD3FF61D0709820044887E /* Cashier.framework in Frameworks */,
-				01CD3FF71D0709820044887E /* Serializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +109,6 @@
 			files = (
 				01CD3FCB1D0707A50044887E /* UserManagerType.framework in Frameworks */,
 				BD7B983F1D8DA143002FE745 /* Cashier.framework in Frameworks */,
-				BD7B983E1D8DA13F002FE745 /* Serializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,8 +116,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01345CA91DE4624100F92CDA /* Serpent.framework in Frameworks */,
 				01CD3FFA1D07098C0044887E /* Cashier.framework in Frameworks */,
-				01CD3FFB1D07098C0044887E /* Serializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +127,6 @@
 			files = (
 				BD8877181D8D9C9E000A60D7 /* Cashier.framework in Frameworks */,
 				01CD3FE71D0707BE0044887E /* UserManagerType.framework in Frameworks */,
-				BD8877191D8D9CA2000A60D7 /* Serializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0135E6331C7B5C70007982E1 /* Serializable.framework in Frameworks */,
+				01345CB01DE4626E00F92CDA /* Serpent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +144,6 @@
 			files = (
 				272F1DF71C6A3D2B0098F620 /* UserManagerType.framework in Frameworks */,
 				BD3454381D8D9352007A9E7C /* Cashier.framework in Frameworks */,
-				BD3454361D8D934C007A9E7C /* Serializable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,8 +164,8 @@
 		01CD3F8B1D06F0BE0044887E /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
+				01345CAD1DE4626300F92CDA /* Serpent.framework */,
 				01CD3F891D06F0B20044887E /* Cashier.framework */,
-				01CD3F861D06EBD70044887E /* Serializable.framework */,
 			);
 			name = watchOS;
 			sourceTree = "<group>";
@@ -179,7 +173,7 @@
 		01CD3F8C1D06F0C20044887E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0135E6321C7B5C70007982E1 /* Serializable.framework */,
+				01345CAF1DE4626E00F92CDA /* Serpent.framework */,
 				0135E6301C7B5C3D007982E1 /* Cashier.framework */,
 			);
 			name = iOS;
@@ -188,8 +182,8 @@
 		01CD3FAD1D0707680044887E /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
+				01345CAA1DE4624D00F92CDA /* Serpent.framework */,
 				01CD3FF41D0709820044887E /* Cashier.framework */,
-				01CD3FF51D0709820044887E /* Serializable.framework */,
 			);
 			name = tvOS;
 			sourceTree = "<group>";
@@ -197,8 +191,8 @@
 		01CD3FAE1D07076C0044887E /* Mac */ = {
 			isa = PBXGroup;
 			children = (
+				01345CA81DE4624100F92CDA /* Serpent.framework */,
 				01CD3FF81D07098C0044887E /* Cashier.framework */,
-				01CD3FF91D07098C0044887E /* Serializable.framework */,
 			);
 			name = Mac;
 			sourceTree = "<group>";
@@ -426,7 +420,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Nodes;
 				TargetAttributes = {
 					01CD3FB31D0707980044887E = {
@@ -617,6 +611,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -643,6 +638,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -669,6 +665,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -694,6 +691,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -868,8 +866,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -918,8 +918,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -940,6 +942,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -951,6 +954,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -974,6 +978,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
