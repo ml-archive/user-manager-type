@@ -1,2 +1,3 @@
-github "nodes-ios/Cashier" "1.1.1"
-github "nodes-ios/Serializable" "bce74cb8e51e99326d8fa9ccc2450124261643de"
+github "Alamofire/Alamofire" "4.2.0"
+github "nodes-ios/Cashier" "1.2.1"
+github "nodes-ios/Serpent" "1.0.1"

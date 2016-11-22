@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Serializable
+import Serpent
 import Cashier
 
 public let UserManagerCacheKey = "UserManager"
