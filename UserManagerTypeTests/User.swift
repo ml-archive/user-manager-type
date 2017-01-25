@@ -6,9 +6,8 @@
 //  Copyright © 2016 Nodes. All rights reserved.
 //
 
-import Serializable
+import Serpent
 import UserManagerType
-
 
 struct UserManager: UserManagerType {
     typealias UserType = User
