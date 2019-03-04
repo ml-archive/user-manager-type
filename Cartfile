@@ -1,2 +1,2 @@
-github "nodes-ios/Serpent" ~> 1.0
+github "nodes-ios/Serpent" "feature/alamofire5"
 github "nodes-ios/Cashier" ~> 1.0
